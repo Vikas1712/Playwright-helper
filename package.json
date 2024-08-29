@@ -2,24 +2,27 @@
   "name": "@vikasnl/playwright-helper",
   "version": "1.0.0",
   "description": "Playwright Helper Library for testing",
-  "main": "./dist/src/playwright-lib/index.js",
-  "types": "./dist/src/playwright-lib/index.d.ts",
+  "main": "./dist/src/playwright-helper/index.js",
+  "types": "./dist/src/playwright-helper/index.d.ts",
   "projectType": "library",
   "exports": {
-    ".": "./dist/src/playwright-lib/index.js",
-    "./constants": "./dist/src/playwright-lib/constant/index.js",
-    "./custom-logger": "./dist/src/playwright-lib/utils/custom-logger.js",
-    "./msTeamReports": "./dist/src/playwright-lib/utils/teamSummaryReport.js",
-    "./api": "./dist/src/playwright-lib/api/index.js",
-    "./splunk-logger": "./dist/src/playwright-lib/utils/splunk-logger.js"
+    ".": "./dist/src/playwright-helper/index.js",
+    "./constants": "./dist/src/playwright-helper/constant/index.js",
+    "./custom-logger": "./dist/src/playwright-helper/utils/custom-logger.js",
+    "./msTeamReports": "./dist/src/playwright-helper/utils/teamSummaryReport.js",
+    "./api": "./dist/src/playwright-helper/api/index.js",
+    "./splunk-logger": "./dist/src/playwright-helper/utils/splunk-logger.js"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Vikas1712/Playwright-helper"
   },
   "author": {
     "name": "Vikas Yadav",
     "email": "dnsvikas.wins@gmail.com"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [
     "playwright",
@@ -43,7 +46,7 @@
     "format": "prettier --write 'tests/**/*.ts' 'src/**/*.ts' 'playwright.config.ts' '**/*.json' '**/*.md' '!package-lock.json' '!dist/**/*' '!build/**/*'",
     "ready": "rimraf dist node_modules package-lock.json && npm i",
     "clean": "rimraf dist node_modules package-lock.json playwright-report test-results",
-    "docs": "typedoc --entryPoints src/playwright-lib --out docs --exclude \"**/node_modules/**/*\" --readme none"
+    "docs": "typedoc --entryPoints src/playwright-helper --out docs --exclude \"**/node_modules/**/*\" --readme none"
   },
   "devDependencies": {
     "@playwright/test": "~1.46.1",
@@ -64,7 +67,6 @@
     "eslint-plugin-playwright": "^1.6.2",
     "eslint-plugin-prettier": "^5.2.1",
     "genson-js": "^0.0.8",
-    "playwright-ctrf-json-reporter": "~0.0.15",
     "rimraf": "~6.0.1",
     "semantic-release": "~24.1.0",
     "typedoc": "~0.26.6",
