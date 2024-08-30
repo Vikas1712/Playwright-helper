@@ -1,6 +1,6 @@
 {
-  "name": "@vikascode/playwright-helper",
-  "version": "2.0.0",
+  "name": "vikas-playwright-helper",
+  "version": "1.0.0-development",
   "description": "Playwright Helper Library for testing",
   "main": "./dist/src/playwright-helper/index.js",
   "types": "./dist/src/playwright-helper/index.d.ts",
@@ -15,23 +15,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Vikas1712/Playwright-helper"
+    "url": "git+https://github.com/Vikas1712/Playwright-helper.git"
   },
-  "author": {
-    "name": "Vikas Yadav",
-    "email": "dnsvikas.wins@gmail.com"
-  },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com"
-  },
+  "author": "Vikas Yadav <dnsvikas.wins@gmail.com>",
   "keywords": [
     "playwright",
     "typescript",
     "testing"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
-    "dist/**/*"
+    "dist/**/*",
+    "README.md"
   ],
   "scripts": {
     "bump:patch": "npm version patch -m 'Patch update to %s'",
@@ -47,7 +44,8 @@
     "format": "prettier --write 'tests/**/*.ts' 'src/**/*.ts' 'playwright.config.ts' '**/*.json' '**/*.md' '!package-lock.json' '!dist/**/*' '!build/**/*'",
     "ready": "rimraf dist node_modules package-lock.json && npm i",
     "clean": "rimraf dist node_modules package-lock.json playwright-report test-results",
-    "docs": "typedoc --entryPoints src/playwright-helper --out docs --exclude \"**/node_modules/**/*\" --readme none"
+    "docs": "typedoc --entryPoints src/playwright-helper --out docs --exclude \"**/node_modules/**/*\" --readme none",
+    "semantic-release": "semantic-release"
   },
   "devDependencies": {
     "@playwright/test": "~1.46.1",
@@ -73,5 +71,13 @@
     "typedoc": "~0.26.6",
     "typescript": "~5.5.4",
     "winston": "~3.14.2"
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vikas1712/Playwright-helper/issues"
+  },
+  "homepage": "https://github.com/Vikas1712/Playwright-helper#readme"
 }
