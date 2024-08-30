@@ -12,7 +12,7 @@
  * @throws {Error} If the appUrl, username, or password are missing.
  *
  * @example
- * import { createBase64Token } from "playwright-helper";
+ * import { createBase64Token } from "vikas-playwright-helper";
  * const token = createBase64Token("https://practiceautomation.com","username", "password");
  */
 export function createBase64Token(appUrl: string, username: string, password: string): string {

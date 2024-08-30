@@ -13,7 +13,7 @@
       "@pages": ["./tests/pages/index.ts"],
       "@fixtures": ["./test-setup/fixtures.ts"],
       "@basePage": ["./test-setup/basePage.ts"],
-      "@nn/playwright-helper": ["./src/nn-playwright-lib/index.ts"],
+      "@playwright-helper": ["./src/playwright-helper/index.ts"],
     }, // Sets up custom path mappings, enabling to import modules with convenient shorter paths
 
     // Emit
