@@ -4,6 +4,7 @@ Testing doesn’t need to be hard, and it doesn’t need to suffer from the prob
 
 **`playwright-helper`** is a typescript library that provide resuable helper methods for the Playwright
 library.
+
 It aims to simplify common tasks and enhance the efficiency of automation testing workflows.
 
 ### How to use it
@@ -13,7 +14,7 @@ It aims to simplify common tasks and enhance the efficiency of automation testin
 To install the library, run the following command
 
 ```bash
-npm install playwright-helper 
+npm install vikas-playwright-helper 
 ```
 
 ### Keeping the software (dependencies) for your repo up-to-date:
