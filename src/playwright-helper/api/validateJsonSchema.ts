@@ -69,6 +69,7 @@ function navigateToRootFolder(fileName: string): string {
  * It is located under the 'api-schema/search' root directory
  *
  * @example
+ *    import { validateJsonSchema } from "vikas-playwright-helper";
  *    const body = await response.json();
  *
  *    // This will run the assertion against the existing schema file

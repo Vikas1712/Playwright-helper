@@ -16,13 +16,14 @@ const httpsAgent = new https.Agent({ rejectUnauthorized: false });
  * SplunkLogger class implements the Reporter interface.
  * It provides methods for logging test case events and errors to Splunk.
  * @example
+ *  import { SplunkLoggerConfig } from "vikas-playwright-helper";
  * Example usage in playwright.config.ts:
  * const splunkLoggerConfig : SplunkLoggerConfig = {
  *   token: process.env.SPLUNK_TOKEN as string,
  *   sourceType: 'e2e-tests-pw'
  *  };
  * reporters: [
- *  ['@nn/playwright-helper/Splunk-logger', splunkLoggerConfig], // Splunk logger for the test cases.
+ *  ['vikas-playwright-helper/Splunk-logger', splunkLoggerConfig], // Splunk logger for the test cases.
  * ],
  */
 class SplunkLogger implements Reporter {

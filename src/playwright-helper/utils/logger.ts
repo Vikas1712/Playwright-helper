@@ -18,7 +18,7 @@ const customLevels = {
  * @example
  * Example usage in playwright.config.ts:
  * reporters: [
- *  ['@nn/playwright-helper/custom-logger'], // Custom logger for the test cases.
+ *  ['vikas-playwright-helper/custom-logger'], // Custom logger for the test cases.
  * ],
  * 
  */
