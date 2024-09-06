@@ -52,12 +52,12 @@
     "@reportportal/client-javascript": "~5.1.4",
     "@types/node": "~22.5.4",
     "ajv": "^8.17.1",
+    "axios": "^1.7.7",
     "genson-js": "^0.0.8",
     "semantic-release": "~24.1.0",
     "typedoc": "~0.26.6",
     "typescript": "~5.5.4",
-    "winston": "~3.14.2",
-    "axios": "^1.7.7"
+    "winston": "~3.14.2"
   },
   "directories": {
     "doc": "docs"
@@ -66,5 +66,8 @@
   "bugs": {
     "url": "https://github.com/Vikas1712/Playwright-helper/issues"
   },
-  "homepage": "https://github.com/Vikas1712/Playwright-helper#readme"
+  "homepage": "https://github.com/Vikas1712/Playwright-helper#readme",
+  "dependencies": {
+    "tslib": "^2.7.0"
+  }
 }
