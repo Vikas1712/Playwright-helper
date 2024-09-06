@@ -48,30 +48,16 @@
     "semantic-release": "semantic-release"
   },
   "devDependencies": {
-    "@playwright/test": "~1.46.1",
-    "@reportportal/agent-js-playwright": "~5.1.9",
+    "@playwright/test": "~1.47.0",
     "@reportportal/client-javascript": "~5.1.4",
-    "@semantic-release/changelog": "~6.0.3",
-    "@semantic-release/commit-analyzer": "~13.0.0",
-    "@semantic-release/git": "~10.0.1",
-    "@types/node": "~22.5.1",
+    "@types/node": "~22.5.4",
     "ajv": "^8.17.1",
-    "cross-env": "^7.0.3",
-    "docdash": "~2.0.2",
-    "dotenv": "^16.4.5",
-    "eslint-config-prettier": "~9.1.0",
-    "eslint-import-resolver-typescript": "~3.6.3",
-    "eslint-plugin-import": "~2.29.1",
-    "eslint-plugin-jsdoc": "~50.2.2",
-    "eslint-plugin-playwright": "^1.6.2",
-    "eslint-plugin-prettier": "^5.2.1",
     "genson-js": "^0.0.8",
-    "rimraf": "~6.0.1",
     "semantic-release": "~24.1.0",
-    "tslib": "^2.7.0",
     "typedoc": "~0.26.6",
     "typescript": "~5.5.4",
-    "winston": "~3.14.2"
+    "winston": "~3.14.2",
+    "axios": "^1.7.7"
   },
   "directories": {
     "doc": "docs"
