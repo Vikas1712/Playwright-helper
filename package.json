@@ -55,8 +55,7 @@
     "genson-js": "^0.0.8",
     "semantic-release": "~24.1.0",
     "typedoc": "~0.26.6",
-    "typescript": "~5.5.4",
-    "winston": "~3.14.2"
+    "typescript": "~5.5.4"
   },
   "directories": {
     "doc": "docs"
@@ -68,6 +67,7 @@
   "homepage": "https://github.com/Vikas1712/Playwright-helper#readme",
   "dependencies": {
     "tslib": "^2.7.0",
-    "ajv": "^8.17.1"
+    "ajv": "^8.17.1",
+    "winston": "~3.14.2"
   }
 }
