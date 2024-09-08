@@ -1,6 +1,6 @@
 {
   "name": "vikas-playwright-helper",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Playwright Helper Library for testing",
   "main": "./dist/src/playwright-helper/index.js",
   "types": "./dist/src/playwright-helper/index.d.ts",
